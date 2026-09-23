@@ -1,0 +1,24 @@
+output "id" {
+  description = "Resource group ID."
+  value       = azurerm_resource_group.this.id
+}
+
+output "name" {
+  description = "Resource group name."
+  value       = azurerm_resource_group.this.name
+}
+
+output "location" {
+  description = "Resource group location."
+  value       = azurerm_resource_group.this.location
+}
+
+output "tags" {
+  description = "Tags applied to the resource group."
+  value       = azurerm_resource_group.this.tags
+}
+
+output "environment" {
+  description = "Normalised environment code."
+  value       = module.naming.environment
+}
