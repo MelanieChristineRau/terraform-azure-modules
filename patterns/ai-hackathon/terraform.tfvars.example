@@ -1,0 +1,19 @@
+location    = "uksouth"
+environment = "sbx"
+description = "hack"
+mode        = "minimum"
+
+owner       = "cloud-platform"
+cost_centre = "IT"
+application = "ai-hackathon"
+
+search_sku                = "basic"
+openai_sku                = "S0"
+foundry_sku               = "S0"
+document_intelligence_sku = "F0"
+
+budget_amount     = 150
+budget_start_date = "2026-09-01T00:00:00Z"
+budget_contact_emails = [
+  "cloud-platform@example.gov.uk"
+]
