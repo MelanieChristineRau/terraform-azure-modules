@@ -1,0 +1,6 @@
+location    = "uksouth"
+environment = "sbx"
+description = "hack"
+owner       = "cloud-platform"
+cost_centre = "IT"
+application = "ai-hackathon"
