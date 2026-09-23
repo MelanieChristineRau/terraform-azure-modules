@@ -1,0 +1,1 @@
+# Planned pattern: simple-website
