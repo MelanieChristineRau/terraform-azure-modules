@@ -1,0 +1,11 @@
+
+location            = "uksouth"
+resource_group_name = "wcc-sbx-jump-rg"
+environment         = "sbx"
+description         = "jump"
+version_suffix      = "01"
+owner               = "cloud-platform"
+cost_centre         = "IT"
+application         = "jumpbox"
+subnet_id           = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/wcc-sbx-net-rg/providers/Microsoft.Network/virtualNetworks/wcc-sbx-net-vnet/subnets/snet-compute"
+admin_password      = "ReplaceMe-UseAVault-NotGit"
